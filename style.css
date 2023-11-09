@@ -1,0 +1,112 @@
+
+
+
+/*barra de navegacion*/
+.barra{
+    background:#EFF5F5;
+    border:3px solid #FC7300;
+   }
+/*header*/
+.header{
+    background:#EFF5F5;
+    border:1px solid #1F8A70;
+    border-radius: 5px;
+}
+/*quienes somos,propuesta educativa y por que elegirnos (3cards)  */
+.card{
+    background:#EFF5F5;
+    border:2px solid #FC7300;
+    border-radius: 5px;
+
+}
+.card-header{
+    background:#EFF5F5;
+    border:1px solid #1F8A70;
+    border-radius: 5px;
+}
+
+.button{
+    background:#1F8A70;
+    color:white;
+}
+/*formulario contacto footer*/
+.formulario_contacto {
+    width: 100px;
+    margin: 0 auto;
+    padding: 0px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+        .container input[type=text], .container textarea {
+            width: 200px;
+            padding: 3px 1px;
+            margin: 3px 0;
+            display: inline-block;
+            border: 2px solid #1F8A70;
+            box-sizing: border-box;
+            border-radius: 4px;
+        }
+        .container input[type=submit] {
+            background-color: #1F8A70;
+            color: white;
+            padding: 3px 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            float: right;
+        }
+        .container input[type=submit]:hover {
+                background-color: #45a049;
+        }
+.footer{
+  background-color: #0d0e0d;
+  color:white
+  
+                
+}
+
+
+
+
+
+
+
+
+/*botones animados */
+button{
+    background:#1AAB8A;
+    color:#fff;
+    border:none;
+    position:relative;
+    height:60px;
+    font-size:1.6em;
+    padding:0 2em;
+    cursor:pointer;
+    transition:800ms ease all;
+    outline:none;
+  }
+  button:hover{
+    background:#fff;
+    color:#1AAB8A;
+  }
+  button:before,button:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background: #1AAB8A;
+    transition:400ms ease all;
+  }
+  button:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+  }
+  button:hover:before,button:hover:after{
+    width:100%;
+    transition:800ms ease all;
+  }
+ 
